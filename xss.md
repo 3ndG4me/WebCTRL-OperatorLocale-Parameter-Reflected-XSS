@@ -2,7 +2,7 @@
 
 --Summary--
 
-The login portal for the Automated Logic WebCTRL/WebCTRL OEM web application contains a vulnerability that allows for reflected XSS attacks due to the locale GET parameter not being sanitized. 
+The login portal for the Automated Logic WebCTRL/WebCTRL OEM web application contains a vulnerability that allows for reflected XSS attacks due to the operatorlocale GET parameter not being sanitized. 
 
 Automated Logic
 https://www.automatedlogic.com/en/products-services/webctrl-building-automation-system/
@@ -15,8 +15,7 @@ https://www.automatedlogic.com/en/products-services/webctrl-building-automation-
 
 --Details--
 
-The login portal for the Automated Logic WebCTRL/WebCTRL OEM web application contains a vulnerability that allows for reflected XSS attacks due to the locale GET parameter not being sanitized. 
-This issue impacts at minimum in version 6.0 and below but potentially impact later versions as well since it has not previously been disclosed. Only version v6.0 was able to be confirmed during primary research. This issue works by passing in a basic XSS payload to a vulnerable GET parameter that is reflected in the output without sanitization. This can allow for several issues including but not limited to:
+The login portal for the Automated Logic WebCTRL/WebCTRL OEM web application contains a vulnerability that allows for reflected XSS attacks due to the operatorlocale GET parameter not being sanitized. This issue impacts at minimum in version 6.0 and below but potentially impact later versions as well since it has not previously been disclosed. Only version v6.0 was able to be confirmed during primary research. This issue works by passing in a basic XSS payload to a vulnerable GET parameter that is reflected in the output without sanitization. This can allow for several issues including but not limited to:
 
 - Hijacking a user's session
 - Using XSS payloads to capture input (keylogging)
