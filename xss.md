@@ -1,4 +1,4 @@
-# CVE-TBD-TBDD - WebCTRL/WebCTRL OEM v6.X Reflected XSS via locale Parameter
+# CVE-2021-31682 - WebCTRL/WebCTRL OEM v6.5 and Below Reflected XSS via locale Parameter
 
 --Summary--
 
