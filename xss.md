@@ -33,5 +33,8 @@ Sanitize any user controlled input in both form fields and URL parameters to pro
 
 - 4/07/2021: XSS Vulnerability was discovered and documented. 
 - 4/17/2021: A temporary CVE identifier was requested by MITRE. Automated Logic was also notified with the full details of each finding via their product security contact at https://www.automatedlogic.com/en/about/security-commitment/. A baseline 90 day disclosure timeline was established in the initial communication.
+- 7/23/2021: MITRE Assigns CVE ID CVE-2021-31682 to the vulnerability.
+- 9/08/2021: Automated Logic formally responds requesting the CVE identifier and states that the issue should be patched in newer versions of the product.
+- 10/20/2021: The researcher responds with the CVE identifier and a request for all impacted version numbers so they can release a more accurate impacted list of products when full disclosure occurs. The researcher with holds disclosure temporarily for this information even though it is past the 90 day point.
 
 Casey Erdmann - Offensive Security Consultant
